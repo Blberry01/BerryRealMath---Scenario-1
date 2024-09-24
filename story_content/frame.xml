@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="false" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x94E2E0">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="false" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
     <layout name="npnxnanbsnfns10110100101" font="Lato" controllayout="npnxnanbsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
     <layout name="pxabnsnfns10110100101" font="Lato" controllayout="pxabnsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Real Math - Scenario 1 - Phase 1 - Nov. 22 launch - Part 1" />
+              <option name="title_text" value="Real Math - Scenario 1 - Kelly &amp;amp; Tim" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -74,6 +74,8 @@
             </options>
           </option>
           <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -91,7 +93,7 @@
       <optiongroup name="courseOptions">
         <options>
           <option name="thumbnailEnabled" value="true" />
-          <option name="thumbnailDisplayName" value="Slide: Real Math Introducation Slide" />
+          <option name="thumbnailDisplayName" value="Slide: Real Math Introduction Slide" />
           <option name="thumbnailUrl" value="story_content/5Y7bDs6Jp7g.jpg" />
         </options>
       </optiongroup>
@@ -108,6 +110,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -131,6 +135,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -154,6 +160,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -177,6 +185,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -200,6 +210,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -228,7 +240,7 @@
           <color name="focus_rect_secondary">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x808080" alpha="100" stop="0" />
+                <color rgb="0x002060" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -239,7 +251,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x282828" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -409,7 +421,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -437,7 +449,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x242424" alpha="100" stop="0" />
+                <color rgb="0x454545" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -761,7 +773,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -994,7 +1006,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1016,7 +1028,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x242424" alpha="100" stop="0" />
+                <color rgb="0x454545" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1158,7 +1170,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x94E2E0" alpha="100" stop="0" />
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1193,7 +1205,7 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x242424" alpha="100" stop="0" />
+                <color rgb="0x454545" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1207,28 +1219,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x282828" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x282828" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x282828" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1274,7 +1286,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1302,7 +1314,7 @@
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x94E2E0" alpha="100" stop="0" />
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1323,7 +1335,7 @@
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x242424" alpha="100" stop="0" />
+                <color rgb="0x454545" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1334,7 +1346,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x212121" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1383,7 +1395,7 @@
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x242424" alpha="100" stop="0" />
+                <color rgb="0x454545" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1393,22 +1405,70 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns10110100101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
       <string id="three_image_items">items</string>
-      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="acc_closed_captions">Closed captions.</string>
-      <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1420,48 +1480,44 @@
       <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="mute_shortcut">Mute / unmute</string>
-      <string id="next_shortcut">Next slide</string>
+      <string id="next_shortcut">Next</string>
       <string id="playpause_shortcut">Play / pause</string>
-      <string id="previous_shortcut">Previous slide</string>
-      <string id="replay_shortcut">Replay slide</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
       <string id="shortcut">Shortcut</string>
-      <string id="submit_shortcut">Submit slide</string>
+      <string id="submit_shortcut">Submit</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
-      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
-      <string id="mute_tip">Mute</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
       <string id="next">NEXT</string>
-      <string id="acc_next">next</string>
-      <string id="next_slide_tip">Next slide</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
-      <string id="acc_pause">pause</string>
-      <string id="pause_tip">Pause</string>
-      <string id="acc_play">play</string>
-      <string id="play_tip">Play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
-      <string id="previous_slide_tip">Previous slide</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
       <string id="question_list">Question List</string>
-      <string id="replay_tip">Replay</string>
-      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
       <string id="acc_locked">locked</string>
       <string id="acc_search_input">search</string>
-      <string id="search_toggle">Search</string>
       <string id="sidebar_toggle">Sidebar Toggle</string>
       <string id="acc_slide_progress">slide progress</string>
       <string id="desktop_start">Start Course</string>
@@ -1470,18 +1526,44 @@
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="settings_tip">Settings</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
       <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
-      <string id="acc_submit">submit</string>
-      <string id="submit_tip">Submit</string>
-      <string id="unmute_tip">Unmute</string>
-      <string id="acc_volume">volume</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcript</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1498,8 +1580,11 @@
       <links>
         <slidelink slideid="_player.6Yc80J9Akro" displaytext="Introduction" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6Yc80J9Akro.6KHo5WrkjIM" displaytext="Real Math Introducation Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Yc80J9Akro.6KHo5WrkjIM" displaytext="Real Math Introduction Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Yc80J9Akro.5czsNbmWVgf" displaytext="Menu " expand="false" type="slide" />
+            <slidelink slideid="_player.6Yc80J9Akro.6drIcluU9yb" displaytext="Part 1 &amp;amp; 2 " expand="false" type="slide" />
+            <slidelink slideid="_player.6Yc80J9Akro.5WkywqD56BU" displaytext="Part 1, 2 &amp;amp; 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Yc80J9Akro.5b9txdaEHye" displaytext="Earn as you Learn" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5uIC099Z8ef" displaytext="Part 1" expand="true" type="slide">
@@ -1508,15 +1593,133 @@
             <slidelink slideid="_player.5uIC099Z8ef.62e8zjDJVU9" displaytext="Loading Screen " expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.617GsWkdbL7" displaytext="Kelly and Tim Having Seconds Thoughts" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.6WUO46sDdIY" displaytext="Stock Lesson" expand="false" type="slide" />
+            <slidelink slideid="_player.5uIC099Z8ef.5ejsApZB2KW" displaytext="Stock Knowledge Check  - Activity 1" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.6qEWn3gzEIc" displaytext="Loading Screen " expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.5YILzn6CqBe" displaytext="After Kelly&amp;apos;s Story" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.5cXDSeWM6Jz" displaytext="Loading Screen " expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.5ZB0bf8OdbD" displaytext="Capital Gains Tax - Activity 1" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.6728FdBVVji" displaytext="Capital Gains Tax - Activity 1" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.6Q3dNCYDSZP" displaytext="Capital Gains Tax - Activity 1" expand="false" type="slide" />
-            <slidelink slideid="_player.5uIC099Z8ef.5ejsApZB2KW" displaytext="Stock Knowledge Check  - Activity 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uIC099Z8ef.5qG4t2kYcQ4" displaytext="Stock Knowledge Check  - Activity 2" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.5g2QSFX3gha" displaytext="After Capital Gains Tax Activity" expand="false" type="slide" />
             <slidelink slideid="_player.5uIC099Z8ef.5xyRnbgTCQe" displaytext="End of Part 1" expand="false" type="slide" />
+            <slidelink slideid="" displaytext="Part 2" expand="true" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6OPujf5o0oM" displaytext="Kelly and Tim Gain More Confidence" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.5sPmdFd5cNh" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.672WBNPVmWQ" displaytext="Farm to Grocery" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.5dqFBQJTHN8" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6AUVf4u26X7" displaytext="What is a budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6eT9FMd1Keq" displaytext="Knowledge Check - Create a Budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.5cvxXRG5h2j" displaytext="Knowledge Check - Create a Budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6oAv2D254o2" displaytext="Knowledge Check - Create a Budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6kDVS6bhX7Z" displaytext="Knowledge Check - Create a Budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6js4FEXMusf" displaytext="Knowledge Check - Create a Budget" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.5qbv9Mev1o9" displaytext="Types of Budgets" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6EYuUMpcydP" displaytext="Knowledge Check " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6j1XDAGZBAR" displaytext="Knowledge Check " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.5iC4MNLC9u2" displaytext="Knowledge Check " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.5v1H2fmZkc7" displaytext="Knowledge Check " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOamynhk0X.6jAxAMrP78i" displaytext="End of Part 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5hl9hxq5FKy" displaytext="Part 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hl9hxq5FKy.60gary7Odcw" displaytext="3 Weeks Later" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.65WnLroTU7A" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.6Lrwog7Wb29" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6XMaxxJtaIz" displaytext="Choose your land" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6fDHXT8u5Ql" displaytext="Transition to Divide the Land" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6KdRicXBczC" displaytext="The Total area of the Farm Land" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5yGBXPM4Ycn" displaytext="Divide the Land 2 " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6HbxVAWIuga" displaytext="What Direction does the surise and Set" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5zbpUzUt7Sd" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5uoc8y1GyOM" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.69fXm0GjIQh" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.60OZwJT2jnV" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6LfpTIlTlLN" displaytext="Divide the Land 2 " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5ZlJQq2Q5Zd" displaytext="Home Layout" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.6hNt3Msm7kJ" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.5nBkkKM0HeQ" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6IobhbUHE6k" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6B7o69So7Xf" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5lyZCprAmxX" displaytext="Purchasing Materials for the Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.5dC5UN3xtMQ" displaytext="Prospective Clients" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6AIpbxjOIx5" displaytext="Scene 20" expand="false" type="slide" />
+            <slidelink slideid="_player.5hl9hxq5FKy.6HlrHYwMH8l" displaytext="End of Part 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.66ruIe2FNdE" displaytext="Rewards" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.66ruIe2FNdE.5WwcVDx5w6P" displaytext="What to purchase? 20000" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6cs3b0oRqHW" displaytext="What to purchase? 200000" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6MTlknEXcvs" displaytext="What to purchase? 2000" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.5jKj6DlI7B4" displaytext="20000 You Earned" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6PmGQfuTq9A" displaytext="200000 You Earned" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6CDtjtEzUgK" displaytext="2000 You Earned " expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.5pRRgkI3awR" displaytext="Purchasing Materials for your Farm" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.5hfgDoWwWB5" displaytext="Purchasing Materials for your Farm" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6o4vbIztwP6" displaytext="Purchasing Materials for your Farm" expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6OoSRU5UJTd" displaytext="Income Producing Assets " expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.6Wl41kMhQON" displaytext="Income Producing Assets " expand="false" type="slide" />
+            <slidelink slideid="_player.66ruIe2FNdE.5xcSu0xE1q3" displaytext="Income Producing Assets " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6M5Kx7Mysl4" displaytext="Variable" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6M5Kx7Mysl4.6EYtAP6kZQd" displaytext="Variable Tracker" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6bXaFHxqDCF" displaytext="Color Palette" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6bXaFHxqDCF.5ubX2RDMLBs" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Drill Question " expand="true" type="slide" />
+        <slidelink slideid="_player.6NsTUeiSNa7" displaytext="Drill Question " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6NsTUeiSNa7.6MaDx6oyvD4" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6XjUfYTCNmn" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6WrrJZ9FCBI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6YNzj6CCsvW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6jNQx53bg08" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6ABvwmvY1oA" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6rcdDVmPCXv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6GV9qESPxlt" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.5q5RHAhQGfn" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6NsTUeiSNa7.6EN0YtMa84Q" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6P679W4icu9" displaytext="Drill Question " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6P679W4icu9.6Q1If95vs6O" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6ZrJN22yXOq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6YwpropdS74" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6F0qL8MnZWw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6pLLJTedhfJ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6a8ioKJb2bN" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.5VGm1fGil7r" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6ZfDDtlYcPW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.6VZYXR9r4RW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6P679W4icu9.5vq2iV2WB7w" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6eMApkQYdkz" displaytext="Other Interactions" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6eMApkQYdkz.5xXSoK1FCWL" displaytext="Loading Screen " expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.6keaaQf8PQ8" displaytext="Learn the Lingo" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5lwMlescSZB" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5XGph7bs7lJ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5zP3Es2u8ZJ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5kGOz6zbphs" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.6Muqy3yFBHg" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.6XlXZmf6QBE" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5YXq4s691wY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.5ckBYGwuCin" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.6kHScEU2mWV" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aK37QI4mBL.6d9wRPNKt4e" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.6O4Uvuk51Sv" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.5tersXIDRyq" displaytext="Purchasing Materials for the Home" expand="false" type="slide" />
+            <slidelink slideid="_player.6eMApkQYdkz.6gqJCDseD6n" displaytext="Loading Screen " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
